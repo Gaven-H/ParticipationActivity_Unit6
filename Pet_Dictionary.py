@@ -19,3 +19,9 @@ pet4 = {
 }
 
 pets = [pet1, pet2, pet3, pet4]
+
+for pet in pets:
+    print("Pet Information:")
+    for key, value in pet.items():
+        print(f"{key.title()}: {value}")
+    print()
