@@ -18,3 +18,4 @@ pet4 = {
     "owner": "Sally"
 }
 
+pets = [pet1, pet2, pet3, pet4]
